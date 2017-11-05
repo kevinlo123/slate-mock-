@@ -1,0 +1,682 @@
+* {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+    font-family: 'Arimo', sans-serif;
+
+}
+
+body{
+  font-size: 10px;
+}
+
+#content-top{
+  background: url(http://thehill.com/sites/default/files/styles/thumb_small_article/public/blogs/trumpmaralago_040817getty.jpg?itok=uPJv1UE5);
+  background-size: cover;
+  height: 298px;
+  width: 69%;
+  border: 1px solid black;
+  margin-right: 10px;
+  float: left;
+}
+
+section h1{
+  color: white;
+  width: 25%;
+  font-size: 3.2em;
+  text-align: center;
+  margin-bottom: -30px;
+}
+
+section p{
+  color: yellow;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-right: 78%;
+  margin-bottom: 5px;
+  text-align: center;
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+
+.author{
+  font-style: italic;
+  font-size: 1.5em;
+  color: white;
+  font-weight: lighter;
+  margin-left: 60px;
+  position: relative;
+  top: 20px;
+}
+
+section h4{
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  border-top:1px solid white;
+  border-bottom:1px solid white;
+  width: 17%;
+  text-align: center;
+  position: relative;
+  left: 72%;
+  bottom: 245px;
+  padding: 3px 0px;
+}
+
+section li{
+  position: relative;
+  left: 65%;
+  bottom: 240px;
+  color: white;
+  font-weight: lighter;
+  font-size: 1.6em;
+  display: block;
+  margin-right: 70%;
+  margin-bottom: 20px;
+}
+
+#trump-roads{
+  width: 15%;
+  height: 310px;
+  border: 1px solid lightgrey;
+  float: left;
+  margin-top: 10px;
+}
+
+.road{
+  border: 1px solid lightgrey;
+  width: 100%;
+  height: 45%;
+}
+
+.roads-text{
+  margin-top: -25px;
+  position: relative;
+  left: 0px;
+  text-align: left;
+  width: 85%;
+  border: thin solid white;
+  font-size: 2.5em;
+  color: #603;
+}
+
+#conservatives{
+  width: 80%;
+  height: 145px;
+  margin-bottom: 10px;
+  border: 1px solid lightgrey;
+  float: right;
+  margin-right: 10px;
+}
+
+.conservatives-text{
+  font-size: 2.2em;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  color:#603;
+}
+
+section author{
+  margin-left: 10px;
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+#despairing{
+  width: 80%;
+  height: 145px;
+  border: 1px solid purple;
+  background: #603;
+  margin-top: 10px;
+  margin-right: 10px;
+  float: right;
+}
+
+.despairing-text{
+  font-size: 2.2em;
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: white;
+}
+
+.ben{
+  position: relative;
+  top: 50px;
+  color: white;
+}
+
+#wrapper{
+  height: 300px;
+  width: 30%;
+  /*border: thin solid black;*/
+  margin-top: 10px;
+  float: right;
+}
+
+aside{
+  height: 78px;
+  width: 70%;
+  border: 1px solid lightgrey;
+  margin-top: 30px;
+  float: left;
+}
+
+.figure{
+  width: 279px;
+  height: 77px;
+  background-color: #320a3f;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  margin-left: 70%;
+  margin-top: -112px;
+}
+.figure:before {
+  right: 51%;
+  top: 99%;
+  border: solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  border-top: 40px solid transparent;
+  border-right: 50px solid #320a3f;
+  border-bottom: 40px solid transparent;
+}
+
+.slate-logo{
+  margin: 11px 0px 0px 17px;
+  height: 50px;
+  width: 5%;
+}
+
+aside h5{
+  color: #603;
+  width: 40%;
+  font-size: 2.17em;
+  margin-left: 10%;
+  margin-top: -7%
+}
+
+.join{
+  text-transform: uppercase;
+  color: white;
+  margin-left:62%;
+  font-size: 2em;
+  position: relative;
+  bottom: 70px;
+  left: 120px;
+}
+
+ .support{
+   color: white;
+   position: relative;
+   bottom: 40px;
+   font-size: 1.5em;
+   right: 50px;
+ }
+
+#right-container{
+  width: 30%;
+  height: 700px;
+  float: right;
+}
+
+.header-right{
+  height: 60px;
+  background-color: #603;
+  border: thin solid black;
+}
+
+.slate-main-text{
+  color: white;
+  font-size: 5em;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+.right-bottom-header{
+  background-color: black;
+}
+
+.most{
+  color: white;
+  font-size: 1.5em;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+.see{
+  color: yellow;
+  font-size: 13px;
+  margin-left: 70%;
+  position: relative;
+  bottom: 2.7em;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.text-top{
+  font-size: 1.2em;
+  color: grey;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+.fa-user:before{
+  font-size: 3em;
+}
+
+.fa-search:before{
+  font-size: 3em;
+}
+
+.fa-bars:before{
+  font-size: 3em;
+}
+
+.text-bottom{
+  color: #603;
+  font-size: 1.7em;
+  margin-left: 10px;
+}
+
+section i{
+  position: relative;
+  left: 230px;
+  bottom: 120px;
+  margin: 10px;
+  color: white;
+}
+
+section > section{
+  float: right;
+  height: 100px;
+  width: 100%;
+  border: 1px solid lightgrey;
+}
+/***************************************************
+media queries**************************************/
+@media (min-width : 587px) and (max-width : 960px){
+  #content-top{
+    display: none;
+    background: url(http://thehill.com/sites/default/files/styles/thumb_small_article/public/blogs/trumpmaralago_040817getty.jpg?itok=uPJv1UE5);
+    background-size: cover;
+    height: 298px;
+    width: 100%;
+    border: 1px solid black;
+    margin-right: 10px;
+    float: none;
+    font-size: .8em;
+  }
+}
+
+@media (min-width : 500px) and (max-width : 960px){
+  #content-top{
+    display: none;
+    background: url(http://thehill.com/sites/default/files/styles/thumb_small_article/public/blogs/trumpmaralago_040817getty.jpg?itok=uPJv1UE5);
+    background-size: cover;
+    height: 298px;
+    width: 100%;
+    border: 1px solid black;
+    margin-right: 10px;
+    float: none;
+    font-size: .8em;
+  }
+
+}
+
+@media (min-width : 260px) and (max-width : 960px){
+  body{
+    font-size: 10px;
+  }
+
+  #content-top{
+    background: url(http://thehill.com/sites/default/files/styles/thumb_small_article/public/blogs/trumpmaralago_040817getty.jpg?itok=uPJv1UE5);
+    background-size: cover;
+    height: 298px;
+    width: 100%;
+    border: 1px solid black;
+    margin-right: 10px;
+    float: none;
+    font-size: .8em;
+  }
+
+  section h1{
+    color: white;
+    width: 25%;
+    font-size: 3.0em;
+    text-align: center;
+    margin-bottom: -30px;
+  }
+
+
+  section h4{
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+    width: 17%;
+    text-align: center;
+    margin: -25px 7px 0px -28px;
+    padding: 3px 0px;
+  }
+
+  section li{
+    margin: 22px 250px -8px -90px;
+    color: white;
+    font-weight: lighter;
+    font-size: 1.6em;
+    display: block;
+  }
+
+  .author{
+    font-style: italic;
+    font-size: 1.5em;
+    color: white;
+    font-weight: lighter;
+    margin-left: 40px;
+    position: relative;
+    top: 20px;
+  }
+
+  #trump-roads{
+    width: 59%;
+    height: 471px;
+    border: 1px solid lightgrey;
+    float: none;
+    margin: 100px;
+    margin-top: 150px;
+  }
+
+  .road{
+    border: 1px solid lightgrey;
+    width: 100%;
+    height: 45%;
+  }
+
+  .roads-text{
+    margin-top: -25px;
+    position: relative;
+    left: 0px;
+    text-align: left;
+    width: 85%;
+    border: thin solid white;
+    font-size: 2.5em;
+    color: #603;
+  }
+
+  #conservatives{
+    width: 80%;
+    height: 145px;
+    margin-bottom: 10px;
+    border: 1px solid lightgrey;
+    float: none;
+    margin-right: 10px;
+  }
+
+  .conservatives-text{
+    font-size: 2.2em;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    color:#603;
+  }
+
+  section author{
+    margin-left: 10px;
+    font-style: italic;
+    font-size: 1.5em;
+  }
+
+  #despairing{
+    width: 80%;
+    height: 145px;
+    border: 1px solid purple;
+    background: #603;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: none;
+  }
+
+  .despairing-text{
+    font-size: 2.2em;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+  }
+
+  .ben{
+    position: relative;
+    top: 50px;
+    color: white;
+  }
+
+  #wrapper{
+    height: 300px;
+    width: 88%;
+    /* border: thin solid black; */
+    margin-top: -62px;
+    margin-left: 71px;
+    float: none;
+  }
+
+  aside{
+    display: none;
+    height: 78px;
+    width: 70%;
+    border: 1px solid lightgrey;
+    margin-top: 30px;
+    float: left;
+  }
+
+  .figure{
+    width: 279px;
+    height: 77px;
+    background-color: #320a3f;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-left: 70%;
+    margin-top: -112px;
+  }
+  .figure:before {
+    right: 51%;
+    top: 99%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border-top: 40px solid transparent;
+    border-right: 50px solid #320a3f;
+    border-bottom: 40px solid transparent;
+  }
+
+  .slate-logo{
+    margin: 11px 0px 0px 17px;
+    height: 50px;
+    width: 5%;
+  }
+
+  aside h5{
+    color: #603;
+    width: 40%;
+    font-size: 2.17em;
+    margin-left: 10%;
+    margin-top: -7%
+  }
+
+  .join{
+    text-transform: uppercase;
+    color: white;
+    margin-left:62%;
+    font-size: 2em;
+    position: relative;
+    bottom: 70px;
+    left: 120px;
+  }
+
+   .support{
+     color: white;
+     position: relative;
+     bottom: 40px;
+     font-size: 1.5em;
+     right: 50px;
+   }
+
+  #right-container{
+    width: 100%;
+    height: 700px;
+    float: none;
+  }
+
+  .header-right{
+    height: 60px;
+    background-color: #603;
+    border: thin solid black;
+  }
+
+  .slate-main-text{
+    color: white;
+    font-size: 5em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+
+  .right-bottom-header{
+    background-color: black;
+  }
+
+  .most{
+    color: white;
+    font-size: 1.5em;
+    margin-left: 10px;
+    text-transform: uppercase;
+  }
+
+  .see{
+    color: yellow;
+    font-size: 13px;
+    margin-left: 70%;
+    position: relative;
+    bottom: 2.7em;
+    text-transform: uppercase;
+    font-weight: lighter;
+  }
+
+  .text-top{
+    font-size: 1.2em;
+    color: grey;
+    margin-left: 10px;
+    text-transform: uppercase;
+  }
+
+  .fa-user:before{
+    display: none;
+    font-size: 3em;
+  }
+
+  .fa-search:before{
+    display: none;
+    font-size: 3em;
+  }
+
+  .fa-bars:before{
+    display: none;
+    font-size: 3em;
+  }
+
+  .hamburger {
+    cursor: pointer;
+    display: block;
+    height: 43px;
+    width: 48px;
+    background: black;
+    margin-top: 1%;
+    position: relative;
+    left: 70%;
+    bottom: 249%;
+    border-radius: 3px;
+    clear: both;
+  }
+
+  #hamburger-bar{
+    height: 6px;
+    width: 36px;
+    background: white;
+    position: absolute;
+    right: 6px;
+    bottom: 30px;
+    margin-top: 7px;
+    clear: both;
+
+  }
+
+  #hamburger-barTwo{
+    height: 6px;
+    width: 36px;
+    background: white;
+    position: absolute;
+    right: 6px;
+    bottom: 19px;
+    margin-top: 7px;
+    clear: both;
+
+  }
+
+  #hamburger-barThree{
+    height: 6px;
+    width: 36px;
+    background: white;
+    position: absolute;
+    right: 6px;
+    bottom: 8px;
+    margin-top: 7px;
+    clear: both;
+
+  }
+
+  .hamburger:hover{
+    opacity: .6;
+  }
+
+  .text-bottom{
+    color: #603;
+    font-size: 1.7em;
+    margin-left: 10px;
+  }
+
+  section i{
+    position: relative;
+    left: 230px;
+    bottom: 120px;
+    margin: 10px;
+    color: white;
+  }
+
+  #toggleMenu{
+    display: none;
+  }
+
+  #toggleMenuTwo{
+    display: none;
+  }
+
+  section > section{
+    float: right;
+    height: 100px;
+    width: 100%;
+    border: 1px solid lightgrey;
+  }
+
+
+}
